@@ -1,0 +1,10 @@
+# Changes to these paths need a review from the owner. Branch protection turns this on
+# ("Require review from Code Owners"); see the orchestrator runbook.
+# Placeholder owner: the demo has one person. Replace with the SA and the security specialist.
+
+/.github/                @SanjulikaSthirAI
+/AGENTS.md               @SanjulikaSthirAI
+
+# The only place that names the API's address, and the only client of the API
+/src/config.js           @SanjulikaSthirAI
+/src/api.js              @SanjulikaSthirAI
