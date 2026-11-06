@@ -1,0 +1,13 @@
+{
+  "name": "orders-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser UI for the orders demo API",
+  "scripts": {
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test",
+    "start": "python -m http.server 8080"
+  },
+  "engines": { "node": ">=20" }
+}

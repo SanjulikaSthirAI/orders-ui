@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orders</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Orders</h1>
+      <label>
+        Status
+        <select id="status-filter">
+          <option value="">All</option>
+          <option value="placed">Placed</option>
+          <option value="shipped">Shipped</option>
+          <option value="delivered">Delivered</option>
+          <option value="cancelled">Cancelled</option>
+        </select>
+      </label>
+      <p id="message" role="status"></p>
+      <table>
+        <thead>
+          <tr><th>Order</th><th>Customer</th><th>Items</th><th>Total</th><th>Status</th><th>Placed</th></tr>
+        </thead>
+        <tbody id="order-rows"></tbody>
+      </table>
+      <section id="detail" aria-live="polite"></section>
+    </main>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>

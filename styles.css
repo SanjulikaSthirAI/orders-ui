@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+main { max-width: 52rem; margin: 2rem auto; padding: 0 1rem; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { text-align: left; padding: 0.5rem; border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
+tbody tr { cursor: pointer; }
+tbody tr:hover, tbody tr:focus { background: color-mix(in srgb, currentColor 8%, transparent); }
+#message.error { color: #b3261e; }
+#detail { margin-top: 1.5rem; }
+button { padding: 0.4rem 0.9rem; }
