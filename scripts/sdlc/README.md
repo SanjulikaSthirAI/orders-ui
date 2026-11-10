@@ -1,0 +1,1 @@
+# Copies of the orchestrator's ci/ scripts (github.com/integrisgroup/sdlc-codex). The demo repos are in another account, so they can't call its reusable workflows. Re-copy them when the originals change; do not edit here.
