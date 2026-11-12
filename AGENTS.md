@@ -27,3 +27,14 @@ There is no build step and there are no runtime dependencies.
 - Build DOM with `textContent` and `createElement`, never `innerHTML` with API data.
 - Every new helper or client call needs a test, including its failure case.
 - `.github/` and `AGENTS.md` are code-owned; do not edit them outside an approved change.
+
+<!-- protected-contracts:start INT-2 -->
+## Protected contracts (INT-2)
+
+Stories must not change these unless plan.json marks the story as a contract change.
+
+- File: `api/**`
+- File: `app/**`
+- File: `config/**`
+- File: `format/**`
+<!-- protected-contracts:end INT-2 -->
